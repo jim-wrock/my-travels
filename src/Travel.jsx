@@ -3,8 +3,10 @@ import React from "react";
 
 
 //1st way
-const Travels = props => (
-  <div style={{ border: "solid black 1px", backgroundColor: "aqua" }}>
+const Travel = props => (
+  <div style={{
+    border: "solid black 1px", backgroundColor: 'aqua'
+  }}>
     <h1> {props.destination} </h1>
     <h2> {props.country} </h2>
     <img src={props.photo} alt="alt" style={{ maxWidth: "50vw" }} />
@@ -28,7 +30,7 @@ const Travels = props => (
 // );
 
 
-export default Travels;
+export default Travel;
 
 
 // class App extends Component {
